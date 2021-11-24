@@ -1,12 +1,12 @@
 import classes from './MyInput.module.css'
 
-function MyInput(props) {
+const MyInput = (props, ref) => {
 
     return (
 
         <input className={classes.myInput} {...props}/>
     
     )
-}
+} 
 
 export default MyInput;
